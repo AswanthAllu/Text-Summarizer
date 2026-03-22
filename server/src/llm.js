@@ -6,7 +6,7 @@ let aiInstance = null;
 function setupAi() {
   if (aiInstance) return aiInstance;
 
-  const key = process.env.GEMINI_API_KEY;
+  const key = process.env.GEMINI_API_KEY; 
   if (!key) {
     console.error("Missing GEMINI_API_KEY environment variable. Terminating.");
     process.exit(1);
