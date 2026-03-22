@@ -1,4 +1,4 @@
-# AI Text Summarizer
+# Text Summarizer
 
 A full-stack application that takes messy, unstructured text and turns it into a structured summary using Google's Gemini AI. The application features a clean, chat-like React UI and a secure Node.js/Express backend that handles the AI generation.
 
