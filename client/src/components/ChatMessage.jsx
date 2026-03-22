@@ -1,7 +1,7 @@
 import React from 'react';
 
-const ChatMessage = ({ data }) => {
-  const { role, content } = data;
+const ChatMessage = ({ message }) => {
+  const { role, content } = message;
 
   if (role === 'error') {
     return (
