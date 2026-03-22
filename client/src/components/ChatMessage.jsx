@@ -26,13 +26,13 @@ const ChatMessage = ({ message }) => {
   return (
     <div className="chat-bubble assistant-bubble result-card">
       <div className="result-group">
-        <span className="label">TL;DR:</span>
+        <span className="label">Summary</span>
         <p className="summary-text">{summary || 'No summary available'}</p>
       </div>
       
       {keyPoints && keyPoints.length > 0 && (
         <div className="result-group">
-          <span className="label">Takeaways:</span>
+          <span className="label">Key Points:</span>
           <ul className="key-points-list">
             {keyPoints.map((pt, i) => (
               <li key={i}>{pt}</li>
@@ -42,7 +42,7 @@ const ChatMessage = ({ message }) => {
       )}
       
       <div className="result-group sentiment-group">
-        <span className="label">Vibe check:</span>
+        <span className="label">Sentiment</span>
         <span className={`sentiment-badge ${sentClass}`}>
           {sentiment || 'Neutral'}
         </span>

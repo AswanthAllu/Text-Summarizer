@@ -64,3 +64,7 @@ npm run dev
 - After running the frontend, open the `http://localhost:5173` (or the URL provided by Vite in your terminal) in your browser.
 - Paste any large, unstructured block of text or article into the text area.
 - Click the Summarize button and watch the AI seamlessly extract the crucial takeaways in the chat interface!
+
+
+
+
